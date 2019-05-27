@@ -1,0 +1,10 @@
+# Items
+item.ingot_copper.name=Copper Ingot
+item.ender_sword.name=Ender Sword
+item.spatula.name=Spatula
+
+# Blocks
+tile.ore_copper.name=Copper Ore
+
+# Tabs
+itemGroup.nerdiesmod=Nerdies
