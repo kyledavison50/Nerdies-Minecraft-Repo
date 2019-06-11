@@ -1,6 +1,6 @@
-package me.nerdies.minecraft.mod.automation.base
+package me.nerdies.minecraft.mod.donottouch.base
 
-import me.nerdies.minecraft.mod.Nerdiesmod
+import me.nerdies.minecraft.mod.donottouch.Nerdiesmod
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item

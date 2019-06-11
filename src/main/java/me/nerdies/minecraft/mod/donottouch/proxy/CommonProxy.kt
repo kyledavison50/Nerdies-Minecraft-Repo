@@ -1,4 +1,4 @@
-package me.nerdies.minecraft.mod.automation.proxy
+package me.nerdies.minecraft.mod.donottouch.proxy
 
 import net.minecraft.item.Item
 

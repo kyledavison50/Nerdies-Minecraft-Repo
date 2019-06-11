@@ -1,6 +1,5 @@
-package me.nerdies.minecraft.mod.automation
+package me.nerdies.minecraft.mod.donottouch
 
-import me.nerdies.minecraft.mod.ModInfo
 import me.nerdies.minecraft.mod.mymod.registration.ModItems
 import net.minecraft.item.ItemStack
 import net.minecraft.creativetab.CreativeTabs

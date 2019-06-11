@@ -1,9 +1,9 @@
-package me.nerdies.minecraft.mod.automation.registration
+package me.nerdies.minecraft.mod.donottouch.registration
 
 import net.minecraft.item.Item
 import net.minecraftforge.registries.IForgeRegistry
-import me.nerdies.minecraft.mod.automation.base.ItemBase
-import me.nerdies.minecraft.mod.automation.base.ToolBase
+import me.nerdies.minecraft.mod.donottouch.base.ItemBase
+import me.nerdies.minecraft.mod.donottouch.base.ToolBase
 
 open class RegisterItems
 {

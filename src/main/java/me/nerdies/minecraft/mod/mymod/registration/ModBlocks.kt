@@ -1,6 +1,6 @@
 package me.nerdies.minecraft.mod.mymod.registration
 
-import me.nerdies.minecraft.mod.automation.registration.RegisterBlocks
+import me.nerdies.minecraft.mod.donottouch.registration.RegisterBlocks
 import me.nerdies.minecraft.mod.mymod.blocks.CopperOre
 
 

@@ -1,9 +1,9 @@
-package me.nerdies.minecraft.mod.automation.registration
+package me.nerdies.minecraft.mod.donottouch.registration
 
 import net.minecraft.block.Block
 import net.minecraft.item.Item
 import net.minecraftforge.registries.IForgeRegistry
-import me.nerdies.minecraft.mod.automation.base.BlockBase
+import me.nerdies.minecraft.mod.donottouch.base.BlockBase
 
 open class RegisterBlocks
 {

@@ -1,7 +1,6 @@
-package me.nerdies.minecraft.mod
+package me.nerdies.minecraft.mod.donottouch
 
-import me.nerdies.minecraft.mod.automation.ExampleTab
-import me.nerdies.minecraft.mod.automation.proxy.CommonProxy
+import me.nerdies.minecraft.mod.donottouch.proxy.CommonProxy
 import me.nerdies.minecraft.mod.mymod.registration.ModBlocks
 import me.nerdies.minecraft.mod.mymod.registration.ModItems
 import net.minecraft.block.Block
@@ -53,6 +52,7 @@ object Nerdiesmod
         fun addItems(event: RegistryEvent.Register<Item>)
         {
             ModItems.register(event.registry)
+            ModBlocks.registerItemBlocks(event.registry)
         }
 
         @SubscribeEvent
