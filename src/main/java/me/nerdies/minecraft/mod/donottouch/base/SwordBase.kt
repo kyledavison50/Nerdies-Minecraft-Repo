@@ -10,9 +10,10 @@ open class SwordBase(val name: String, val material: ToolMaterial = ToolMaterial
     {
         setRegistryName(name)
         translationKey = name
+        creativeTab = Nerdiesmod.creativeTab
     }
 
-    fun registerItemModel(item: Item)
+    fun registerItemModel()
     {
         Nerdiesmod.proxy.registerItemRenderer(this, 0, name)
     }

@@ -3,6 +3,7 @@ package me.nerdies.minecraft.mod.donottouch.registration
 import net.minecraft.item.Item
 import net.minecraftforge.registries.IForgeRegistry
 import me.nerdies.minecraft.mod.donottouch.base.ItemBase
+import me.nerdies.minecraft.mod.donottouch.base.SwordBase
 import me.nerdies.minecraft.mod.donottouch.base.ToolBase
 
 open class RegisterItems
@@ -26,6 +27,10 @@ open class RegisterItems
                 item.registerItemModel()
             }
             else if (item is ToolBase)
+            {
+                item.registerItemModel()
+            }
+            else if (item is SwordBase)
             {
                 item.registerItemModel()
             }

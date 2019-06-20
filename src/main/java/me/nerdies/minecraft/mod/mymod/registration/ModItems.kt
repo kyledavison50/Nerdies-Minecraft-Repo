@@ -4,6 +4,7 @@ package me.nerdies.minecraft.mod.mymod.registration
 import me.nerdies.minecraft.mod.donottouch.registration.RegisterItems
 import me.nerdies.minecraft.mod.mymod.items.IngotCopper
 import me.nerdies.minecraft.mod.mymod.weapons.CopperSword
+import me.nerdies.minecraft.mod.mymod.weapons.MysticSword
 
 // 1) Register the item here
 // 2) Place your texture in resources/assets/nerdiesmod/textures/items/TextureName.png
@@ -13,10 +14,12 @@ object ModItems : RegisterItems()
 {
     val ingotCopper = IngotCopper()
     val copperSword = CopperSword()
+    val mysticSword = MysticSword()
 
     init
     {
         itemList.add(ingotCopper)
         itemList.add(copperSword)
+        itemList.add(mysticSword)
     }
 }
